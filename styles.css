@@ -1,0 +1,32 @@
+body{
+    margin: 0 auto;
+    background: grey;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+.post{
+    background: white;
+    margin-top: 5px;
+}
+.post img{
+    width: 100%;
+}
+.post h2, .post p{
+    padding: 5px;
+    margin: 0;
+}
+.flex-header{
+    display: flex;
+}
+.first-flex{
+    flex-grow: 3;
+}
+.second-flex p{
+    color: gray;
+}
+.container{
+    width: 500px;
+    margin: auto;
+}
